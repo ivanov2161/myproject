@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('reducer/', include('reducer.urls'))
+    path('', include('reducer.urls'))  # тут вопрос нормально ли так делать?
 ]
