@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 align="center">Your reduced link</h2>
+<p align="center">Please copy this:</p>
+
+<form action="{% url 'reduced' %}" align="center">
+    <p align="center">http://127.0.0.1:8000/reducer/S/{{message}} </p>
+    <br><br>
+    <input type="button" onclick="history.back();" align="center" value="Назад"/>
+</form>
+
+</body>
+</html>
