@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from .models import Url
 import string
 import secrets
-alphabet = string.ascii_letters + string.digits
+ALPHABET = string.ascii_letters + string.digits
 
 
 def home(request):
@@ -11,7 +11,7 @@ def home(request):
 
 def reduced(request):
     message = request.GET['message']
-    key = ''.join(secrets.choice(alphabet) for i in range(4))
+    key = ''.join(secrets.choice(ALPHABET) for i in range(4))
     temp = Url.objects.create(key=key, url=message)
     return render(request, './reducer/reduced.html', {'message': temp.key})
 
