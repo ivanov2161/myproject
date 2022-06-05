@@ -1,5 +1,5 @@
 from django.contrib import admin
 
-from .models import Reducer
+from .models import Url
 
-admin.site.register(Reducer)
+admin.site.register(Url)
