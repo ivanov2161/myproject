@@ -1,8 +1,8 @@
-##Проект: Сокращатель ссылок
+## Проект: Сокращатель ссылок
 
 Сайт разработанн, для сокращения web-ссылок.
 
-###Пример: 
+### Пример: 
 *Изначальная ссылка: https://www.google.com/search?q=python&tbm=isch&ved=2ahUKEwjQrYK1grX5AhUKGRoKHQOiA-oQ2-cCegQIABAA&oq=python&gs_lcp=
 CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CwgAEIAEELEDEIMBOgQIABADUJQ
 IWOMaYLAcaABwAHgAgAGUAYgBiQmSAQMwLjiYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=wNbvYtDNNYqyaIPEjtAO&bih=961&biw=1920#imgrc=aNKixiwLiDxvIM
